@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/home-style.css">
+<style>
+@font-face{
+	font-family: myFont;
+	src:url(fonts/Memphis.otf);
+}
+
+@font-face{
+	font-family: myFont2;
+	src:url(fonts/font-awesome.otf);
+}
+
+
+@font-face{
+	font-family: myFont3;
+	src:url(fonts/Poppins-bold.otf);
+}
+
+
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('./homepage pic/background.jpg');
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+}
+
+.header-content{
+	margin-bottom: 150px;
+	color: whitesmoke;
+	text-align: center;
+
+}
+
+.header-content h2{
+	font-size: 7vmin;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-family: myFont3;
+	
+
+}
+
+.header-content h1{
+	font-size: 4vmin;
+	font-family: myFont;
+	color: white;
+}
+.line{
+	width: 150px;
+	height: 4px;
+	background: #fc036b;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+
+.btn{
+	width: 130px;
+	height: 65px;
+	padding: 8px 15px;
+	font-family:myFont2;
+	font-weight: bold;
+	border: none;
+	color: whitesmoke;
+	background-color: rgb(255, 0, 68);
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 black;
+	transition: ease-out 0.2s;
+	font-size: 1.5rem;
+	outline: none;
+	top: 370px;
+	border-radius: 30px;
+}
+
+.btn:hover{
+	box-shadow: inset 300px 0 0 0 yellow;
+	cursor: pointer;
+	color: #000;
+	transform: scale(1.1);
+}
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	list-style: none;
+}
+
+
+ul li a:hover{
+	color:rgb(255, 0, 68);
+	cursor: pointer;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.menu-btn{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 40px;
+	cursor: pointer;
+}
+
+/*navbar*/
+
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding:15px;
+	color: white;
+	font-family: myFont3;
+
+}
+.nav-links{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.nav-links li{
+	margin: 0px 30px;
+}
+/* Events */
+section{
+	width: 80%;
+	margin: 70px auto;
+}
+
+.title{
+	text-align: center;
+	font-size: 2vmin;
+	color: black;
+}
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.row .col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.events .row {
+	margin-top: 50px;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+       
+     <nav class="navbar">
+          <h2 class="logo">MMW</h2>
+     	<ul class="nav-links">
+     		<li class="active"><a href=""><span class= redfont>HOME</span></a></li>
+			<li><a href="page/Contact.html">CONTACT</a></li>
+			<li><a href="page/About.html">ABOUT US</a></li>
+		</ul>
+      </nav>
+   	<header>
+		<div class="header-content">
+			<h1>Make you Happy</h1>
+			<div class="line"></div>
+			<h2>MOTIVATIONAL<br>MUSIC WEBSITE</h2>
+			<a href="page/AudioGallery3.html">
+			<button class="btn">MUSICS</button>
+		</a>
+		</div>
+	</header>
+
+	<!-- Events -->
+
+	<section class="events">
+		<div class="title">
+			
+		</div>
+<div class="row">
+	<div class="col">
+		<img src="quotes/p4.jpg" height="250px">
+  </div>
+  <div class="col">
+		<img src="quotes/p5.jpg" height="250px">
+  </div>
+ </div>
+</section>
+
+
+</body>
+</html>
