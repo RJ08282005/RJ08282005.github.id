@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
@@ -24,40 +24,11 @@
 	src:url(fonts/Poppins-bold.otf);
 }
 
-@font-face{
-	font-family: myFont4;
-	src:url(fonts/Poppins-Regular.otf);
-}
-	
-/*navbar*/
-
-.navbar{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	padding:0px;
-	color: white;
-	font-family: myFont4;
-
-}
-.nav-links{
-	display: flex;
-	align-items: center;
-
-
-}
-
-.nav-links li{
-	margin: 10px 30px;
-}
 
 header{
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(-45deg, #0c090a, #454545);
+	background-image: url('homepage pic/background.jpg');
 	background-position: bottom;
 	background-size: cover;
 	display: flex;
@@ -77,7 +48,7 @@ header{
 	font-size: 7vmin;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	font-family: myFont4;
+	font-family: myFont3;
 	
 
 }
@@ -100,7 +71,7 @@ header{
 	width: 130px;
 	height: 65px;
 	padding: 8px 15px;
-	font-family:myFont4;
+	font-family:myFont2;
 	font-weight: bold;
 	border: none;
 	color: whitesmoke;
@@ -150,7 +121,30 @@ ul li a:hover{
 	cursor: pointer;
 }
 
+/*navbar*/
 
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding:0px;
+	color: white;
+	font-family: myFont3;
+
+}
+.nav-links{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.nav-links li{
+	margin: 10px 30px;
+}
 /* Events */
 section{
 	width: 80%;
@@ -178,9 +172,6 @@ section{
 .events .row {
 	margin-top: 50px;
 }
-
-
-
 
 
 </style>
